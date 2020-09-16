@@ -17,7 +17,11 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.trackcompany.tracker"
+    },
+    "android": {
+      "package": "com.trackcompany.tracker"
     }
   }
 }
